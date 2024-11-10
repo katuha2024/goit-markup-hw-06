@@ -14,7 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-old.css" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- хедер -->
@@ -50,11 +51,15 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-button">
+          <svg width="24" height="24" class="icon-burger">
+<use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg></button>
       </div>
     </header>
     <main>
       <!-- секція 1 -->
-      <section class="section-one section">
+      <section class="section-one section hidden">
         <div class="container">
           <h1 class="section-one-title">
             Effective Solutions for Your Business
@@ -63,7 +68,7 @@
         </div>
       </section>
       <!-- секція 2 -->
-      <section class="section-two section">
+      <section class="section-two section hidden">
         `
         <div class="container">
           <h2 hidden class="visually-hidden">our advantages</h2>
@@ -120,7 +125,7 @@
         </div>
       </section>
       <!-- секція 3 -->
-      <section class="our-team section">
+      <section class="our-team section hidden">
         <div class="container">
           <h2 class="our-team-h">Our Team</h2>
           <ul class="our-team-link">
@@ -339,7 +344,7 @@
         </div>
       </section>
       <!-- секція портфоліо -->
-      <section class="portfolio section">
+      <section class="portfolio section hidden">
         <div class="container">
           <h2 hidden class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-link">
@@ -462,7 +467,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container">
         <div class="container-logo">
           <a class="footer-logo" href="./index.html"
@@ -524,8 +529,8 @@
       </div>
     </footer>
     <!-- модальне вікно -->
-    <div class="modal-overlay">
-      <div class="modal">
+    <div class="modal-overlay hidden">
+      <div class="modal hidden">
         <button type="button" class="close-modal">
           <svg class="icon-close-modal" width="8"  height="8">
             <use href="./images/icons.svg#icon-Vector"></use>
