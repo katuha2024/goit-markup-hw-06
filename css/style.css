@@ -47,7 +47,7 @@ a {
 }
 @media screen and (min-width: 768px){
     .container{
-        max-width: 168px;
+        max-width: 768px;
     }
 }
 @media screen and (min-width: 1158px){
@@ -87,7 +87,7 @@ a {
 .logo-studio {
   color: #2e2f42;
 }
-header-logo {
+.header-logo {
   padding: 16px 0;
   display: block;
 }
@@ -104,16 +104,85 @@ header-logo {
     .burger-button{
         display: none;
     }
-    .address-page {
-  font-style: normal;
+.address-link {
+  display: flex;
+flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  color: #2e2f42;
+}
+.address-a {
   display: block;
+  color: #434455;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav{
-   display: flex;
-  align-items: center; 
+.nav-link {
+  display: flex;
+  text-align: center;
+  gap: 40px;
 }
-.header-logo {
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+  position: relative;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current {
+  color: #404bbf;
+}
+.current::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: #404bbf;
+}
+.header-logo{
   padding: 24px 0;
   margin-right: 120px;
+}
+.address-a:hover,
+.address-a:focus {
+  color: #404bbf;
+}
+}
+@media screen and (min-width: 1158px){
+  .header-logo{
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.address-link {
+flex-direction: row;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  color: #2e2f42;
+}
+.address-a {
+  color: #434455;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
