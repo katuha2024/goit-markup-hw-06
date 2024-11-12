@@ -286,7 +286,7 @@ color: #2e2f42;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/peopleoffic.jpg);
+    url(../images/адаптив/Dark-mob-1.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -325,6 +325,7 @@ margin: 0 auto;
 }
  @media screen and (min-width: 768px){
   .section-one {
+    background-image: linear-gradient((46, 47, 66, 0.7), (46,47, 66, 0.7)), url(../images/адаптив/Dark-tab-1.jpg);
   max-width:1157px;
   padding: 52px 0;
   margin: 0 auto;
