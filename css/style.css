@@ -509,3 +509,38 @@ color: #434455;
   text-align: left;
 }
  }
+ /* section aour team */
+ .our-team {
+  background-color: #f4f4fd;
+  padding: 96px 0;
+}
+
+ .our-team-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  color: #2e2f42;
+}
+.our-team-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:72px;
+  padding: 0;
+}
+.social-media-item{
+  width: 264px;
+}
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
