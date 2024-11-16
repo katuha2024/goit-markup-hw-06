@@ -336,7 +336,6 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #fff;
   display: block;
-  margin: 0 auto;
 }
 .button {
   display: block;
@@ -383,8 +382,6 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #fff;
   display: block;
-  margin-bottom: 48px;
-  margin: 0 auto;
 }
 .button {
   display: block;
@@ -593,5 +590,32 @@ color: #434455;
   width: 40px;
   height: 40px;
 }
-.our-team-item{
+}
+@media screen and (min-width: 1158px){
+  .our-team{
+    padding: 120px 0;
+  }
+  .our-team-item{
+    width: calc((100%-72px)/4);
+  }
+}
+/* portfolio */
+.portfolio {
+  padding: 96px 0;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-link{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
 }
