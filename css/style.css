@@ -291,8 +291,7 @@ color: #2e2f42;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 52px 0;
-  margin: 0 auto;
+  margin: 0 auto 52px;
 }
 .section-one-title {
   max-width: 216px;
@@ -303,8 +302,7 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   color: #fff;
   display: block;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin: 0 auto 72px;
 }
 .button{
 display: block;
@@ -327,8 +325,7 @@ margin: 0 auto;
   .section-one {
    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/adaptivka/Dark-tab-1.jpg);
   max-width:1157px;
-  padding: 52px 0;
-  margin: 0 auto;
+
 }
   .section-one-title {
   min-width: 496px;
@@ -339,7 +336,6 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   color: #fff;
   display: block;
-  margin-bottom: 48px;
   margin: 0 auto;
 }
 .button {
@@ -377,7 +373,6 @@ margin: 0 auto;
   background-size: cover;
   background-position: center;
   padding: 188px 0;
-  margin: 0 auto;
 }
 .section-one-title {
   max-width: 496px;
@@ -599,6 +594,4 @@ color: #434455;
   height: 40px;
 }
 .our-team-item{
-  width: calc((100% - 24px) / 2);
-}
 }
