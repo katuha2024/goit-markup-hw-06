@@ -763,6 +763,8 @@ color: #434455;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  padding: 0 15px;
+  gap: 0;
 }
 .container-logo {
   margin-right: 120px;
@@ -844,7 +846,7 @@ color: #434455;
 }
 .email-form {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
   gap: 24px;
 }
 .lable-form {
