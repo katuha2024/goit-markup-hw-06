@@ -599,6 +599,9 @@ color: #434455;
   }
 }
 /* portfolio */
+.profi-text-hidden{
+  display: none;
+}
 .portfolio {
   padding: 96px 0;
 }
