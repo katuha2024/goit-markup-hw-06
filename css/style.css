@@ -570,7 +570,7 @@ color: #434455;
   color: #434455;
   margin-bottom: 8px;
 }
-@media screen and (min-width: 768px){
+@media screen  (min-width: 768px) and (max-width: 1157px){
   .our-team{
     padding: 96px 0;
   }
@@ -624,7 +624,7 @@ color: #434455;
 .portfolio-box-list{
   width: 288px;
 }
-@media screen and (min-width: 768px){
+@media screen  (min-width: 768px) and (max-width:1157px){
 .portfolio-link{
  display: flex;
  flex-wrap: wrap;
