@@ -607,6 +607,12 @@ color: #434455;
   .our-team{
     padding: 120px 0;
   }
+  .our-team-link{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
   .our-team-item{
     width: calc ((100% -72px)/4);
   }
@@ -656,7 +662,6 @@ color: #434455;
     padding: 0; }
 }
   .portfolio-box-list {
-   width: calc ((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   border-top: none;
   background: #fff;
