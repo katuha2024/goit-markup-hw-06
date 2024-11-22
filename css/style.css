@@ -651,6 +651,7 @@ color: #434455;
 }
 .portfolio-link{
  flex-wrap: wrap;
+ flex-direction: row;
  gap: 72px;
  column-gap: 24px;
  align-items: center;
