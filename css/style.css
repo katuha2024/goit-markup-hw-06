@@ -3,6 +3,11 @@
 }
 
 /* базові стилі */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -39,12 +44,6 @@ a {
   text-decoration: none;
 }
 /* загальні */
-
-.container {
-  max-width: 320px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
 @media screen and (min-width: 768px){
     .container{
         min-width: 768px;
@@ -637,24 +636,22 @@ color: #434455;
 .portfolio-link{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 72px 24px;
+  gap: 24px;
+  justify-content: center;
 }
 
 @media screen (min-width: 768px) and (max-width:1157px){
-  .container{
-    min-width: 768px;
-  }
   .portfolio {
   padding: 96px 0;
 }
 .portfolio-link{
+display: flex;
  flex-wrap: wrap;
  flex-direction: row;
- gap: 72px;
- column-gap: 24px;
  align-items: center;
+ gap: 24px;
  justify-content: center;
 }
 .portfolio-box-list{
@@ -729,10 +726,8 @@ flex-basis: calc((100% - 24px) / 2);
  }
   
  /* footer */
- @media screen(max-width: 767px){
-  
- }
  .footer{
+  background-color: #2e2f42;
    padding: 96px 0;
  }
  .footer .container{
@@ -740,7 +735,7 @@ flex-basis: calc((100% - 24px) / 2);
  flex-direction: column;
  flex-wrap: wrap;
  column-gap: 24px;
- align-items: center;
+ align-items: baseline;
  }
 .footer-logo-studio{
   text-align: center;
@@ -758,6 +753,21 @@ flex-basis: calc((100% - 24px) / 2);
 .text-social{
   margin-bottom: 16px;
   text-align: center;
+}
+.social-item {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-links-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-footer-social {
     margin-right: 0;
