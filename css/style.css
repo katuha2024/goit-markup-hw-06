@@ -628,6 +628,26 @@ color: #434455;
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+.profi-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.profi-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.profi-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 @media  (min-width: 768px){
 .portfolio-link{
@@ -661,21 +681,7 @@ flex-basis: calc((100% - 24px) / 2);
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.profi-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-.profi-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 }
  @media screen and (min-width: 1158px){
 .portfolio-box-list {
