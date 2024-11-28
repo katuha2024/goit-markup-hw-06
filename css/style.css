@@ -435,6 +435,7 @@ color: #2e2f42;
 margin-bottom: 8px;
 }
 .section-two-text{ 
+max-width: 288px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
